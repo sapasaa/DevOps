@@ -4,7 +4,6 @@ node_js:
 script:
     - echo '******Build starts*******'
     - echo 'Installing dependencies'
-    - npm install 
-    - npm install -g mocha
+    - npm install -g
     - echo 'Running tests'
     - mocha
