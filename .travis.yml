@@ -5,6 +5,5 @@ script:
     - echo '******Build starts*******'
     - echo 'Installing dependencies'
     - npm install
-    - npm install -g mocha
     - echo 'Running tests'
-    - mocha
+    - npm test.
